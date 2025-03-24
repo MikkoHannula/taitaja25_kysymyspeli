@@ -1,3 +1,3 @@
 <?php
-echo "Taitaja 2025 Kysymyspeli toimii!";
+echo "Taitaja 2025 Kysymyspeli!";
 ?>

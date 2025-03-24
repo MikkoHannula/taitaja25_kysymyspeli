@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Admin Buttons */
+.admin-buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.admin-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.admin-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Dropdown */
+.category-dropdown {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Center Content */
+.center-content {
+    text-align: center;
+    font-size: 1.5em;
+    transition: opacity 0.5s ease-out;
+    margin-top: -300px; /* Move content higher */
+}
+.hidden-content {
+    display: none;
+}
+
+/* Questions */
+.question-list {
+    font-size: 14px; /* Smaller text */
+    margin-top: -40px; /* Move questions higher */
+}
+.question-item {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.correct-answer {
+    font-weight: bold;
+    color: red;
+}
+.correct {
+    background-color: #d4edda; /* Vihreä */
+}
+
+.incorrect {
+    background-color: #f8d7da; /* Punainen */
+}
+
