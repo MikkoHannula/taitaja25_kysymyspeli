@@ -13,9 +13,10 @@ if ($conn->connect_error) {
     die("Yhteys epäonnistui: " . $conn->connect_error);
 }
 
-//Merkkikoodaus
+// Merkkikoodaus
 $conn->set_charset("utf8");
 
+// Virheilmoitukset päälle kehityskäyttöön
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
